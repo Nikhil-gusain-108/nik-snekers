@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    align-content: space-around;
+    background: rgba(35.26, 34.67, 34.67, 0.80);
+}
+/*navigation bar*/
+.nav{
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    position: relative;
+    background: rgba(204, 204, 204, 0.80);
+
+}
+.nav img{
+    width: 23px;
+    height: 23px;
+    position: relative;
+    margin-top: 0.5vh;
+    border-radius: 50%;
+    margin-left: 0.5vw;
+}
+.nav-prt2{
+    margin-top: 0.5vw ;
+    font-weight: 100;
+}
+.nav-prt2 a{
+    margin-right: 10vw;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav-prt2 a:nth-child(1){
+    margin-left: 10vw;
+}
+/*main body*/
+.container{
+    width: 100vw;
+    position: relative;
+}
+.big-container{
+    display: flex;
+    align-content: space-between;
+}
+.single-product-div-holder{
+    width: 40vw;
+    height: 30vw;
+    margin-left: 5vw;
+    margin-top: 9vw;
+    display: flex;
+    font-size: 7.9px;
+    position: relative;
+    background: #D9D9D9
+}
+.single-product-div-holder img{
+    width: 30%;
+    height: 80%;
+    margin: 3vw 4%;
+    position: relative;
+}
+.name{
+    height: 6%;
+}
+.info{
+    display: flex;
+}
+.title{
+    width: 45%;
+}
+.shop-btn{
+    width: 30%;
+    height: 14%;
+    position: absolute;
+    background: #007BFF;
+    border-radius: 27.50px;
+}
+.shop-btn a{
+    margin-left: 20%;
+    text-decoration: none;
+    color: white;
+}
+/* for when mobile version
+.multiple-container{
+    width: 80vw;
+    height: 32vw;
+    margin-left: 9vw;
+    margin-top: 5vw;
+    display: flex;
+    font-size: 2vw;
+    position: relative;
+    background: #D9D9D9;
+    align-content: space-between;
+}
+*/
+/* for when dekstop version*/
+.multiple-container{
+    width: 80vw;
+    height: 18vw;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    display: flex;
+    font-size: 1.8vw;
+    position: relative;
+    background: #D9D9D9;
+    align-content: space-between;
+}
+.multi-product-div-holder{
+    width: 10%;
+    height: 90%;
+    margin-top: 0.5%;
+    margin-left: 3%;
+    background-color:#D9D9D9;
+    border: 1px solid black;
+} 
+/*
+.multi-product-div-holder{
+    width: 20%;
+    height: 90%;
+    margin-top: 0.5%;
+    margin-left: 3%;
+    background-color:#D9D9D9;
+    border: 1px solid black;
+}
+*/
+.multi-product-div-holder img{
+    height: 50%;
+    width: 80%;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.multi-product-div-holder .shop-btn{
+    width: 80%;
+    height: 20%;
+    position: relative;
+    background: #007BFF;
+    border-radius: 27.50px;
+    margin-left: 5%;
+}
+.img {
+    height: 100vw;
+    width: 100vw;
+    padding-top: 10vw;
+    background-image: url("shop img/air jorden shoe 0.png");
+    background-size: 100% 100%;
+}
+.bfont{
+    color: #22b4c1;
+    font-size: 7vw;
+}
+.pos1{
+    padding-top: 15vw;
+    padding-left: 5vw;
+}
+.pos2{
+    padding-left: 40vw;
+}
+hr{
+    background-color: aqua;
+}
+.title{
+    height: 2vw;
+}
+
+.detail{
+    display: flex;
+}
+.written-detail{
+    width: 50%;
+    height:100% ;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+.right-text{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img-detail{
+    width: 30%;
+    height: 30vw;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.rect{
+    height: 23vw;
+    border-radius: 10%;
+}
+.circle-img{
+    border-radius: 50%;
+}
+.container h2{
+    margin-left: 35%;
+}
+.container h1{
+    margin-left: 40%;
+}
+#ship{
+    width: 60%;
+    margin-left: 20%;
+}
